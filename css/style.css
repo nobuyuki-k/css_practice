@@ -51,13 +51,13 @@ header .icon {
 main .container {
   width: 400px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 main h1 {
   font-size:24px;
   font-weight: normal;
   text-align: center;
+  padding: 60px 0;
 }
 
 main h2 {
@@ -67,4 +67,9 @@ main h2 {
 
 main p {
   line-height: 1.8;
+  margin-top: 16px;
+}
+
+main section + section {
+  margin-top: 60px;
 }
