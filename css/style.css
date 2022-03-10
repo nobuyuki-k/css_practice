@@ -73,3 +73,9 @@ main p {
 main section + section {
   margin-top: 60px;
 }
+
+footer {
+  padding: 60px 0;
+  text-align: center;
+  color: #aaa;
+}
